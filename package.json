@@ -1,0 +1,20 @@
+{
+  "name": "Criar_Produto_Shopify",
+  "version": "0.1.0",
+  "description": "Fancy Next.js app",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "build:static": "next build && next out"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@mui/material": "^6.1.0",
+    "axios": "^1.7.7",
+    "next": "^14.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  }
+}
