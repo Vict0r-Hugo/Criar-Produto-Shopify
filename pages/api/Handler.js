@@ -3,7 +3,12 @@ import axios from 'axios';
 export default async function handler(req, res) { 
    const url = "aaa"
    const token = "aaa"
-   const data = {}
+   const data = {
+    title: "Burton Custom Freestyle 151",
+    body_html:"<strong>Good snowboard!</strong>",
+    vendor:"Burton",
+    pproduct_type: "Snowboard",
+    status: "draft",}
 
    try{
     const headers = {
